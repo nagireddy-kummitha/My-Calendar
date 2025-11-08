@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Children's Day", "date": "2025-11-14", "time": "15:00", "duration": 60 },
+  { "id": 2, "title": "Assesment Day", "date": "2025-11-08", "time": "15:00", "duration": 60 },
+  { "id": 3, "title": "Puspha Birthday", "date": "2025-11-22", "time": "11:00", "duration": 45 },
+  { "id": 4, "title": "Sem Exam Start", "date": "2025-11-24", "time": "14:00", "duration": 90 }
+]
