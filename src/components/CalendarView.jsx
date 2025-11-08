@@ -91,7 +91,7 @@ export default function CalendarView() {
                 !isSameMonth(d, viewDate) ? "bg-slate-50 text-gray-400" : ""
               }`}
             >
-              <div className={`text-sm ${isToday(d) ? "text-blue-600 font-bold" : "text-gray-700"}`}>
+              <div className={`text-sm ${isToday(d) ? "text-blue-600 font-bold" : "text-black-700"}`}>
                 {format(d, "d")}
               </div>
               <div className="mt-1 space-y-1">
