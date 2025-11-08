@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 export default function EventsManager() {
   const [events, setEvents] = useState([])
   useEffect(() => {
-  fetch('./public/events.json')
+  fetch('/events.json')
     .then(response => response.json())
     .then(data => setEvents(data))
     .catch(error => console.log("Error loading events:", error))
